@@ -25,6 +25,9 @@ WORKDIR /var/www
 # Copy Laravel project files into the image
 COPY . .
 
+# Install PHP dependencies
+RUN composer install --no-interaction --prefer-dist --optimize-autoloader
+
 # Copy custom Apache config to serve Laravel from public/
 COPY apache.conf /etc/apache2/sites-available/000-default.conf
 
