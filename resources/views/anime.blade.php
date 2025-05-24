@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.min.css" />
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ asset('css/base.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/components.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/layout.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/animations.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/pages/anime.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/footer.css') }}" />
+    <link rel="stylesheet" href="{{ asset('../public/css/base.css') }}" />
+    <link rel="stylesheet" href="{{ asset('../public/components.css') }}" />
+    <link rel="stylesheet" href="{{ asset('../publiccss/layout.css') }}" />
+    <link rel="stylesheet" href="{{ asset('../publiccss/animations.css') }}" />
+    <link rel="stylesheet" href="{{ asset('../public/pages/anime.css') }}" />
+    <link rel="stylesheet" href="{{ asset('../publiccss/footer.css') }}" />
 </head>
 <body>
     <div id="app">
@@ -193,13 +193,13 @@
         
         <!-- Scripts -->
         <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
-        <script src="{{ asset('js/utils/storage.js') }}"></script>
-        <script src="{{ asset('js/utils/toast.js') }}"></script>
-        <script src="{{ asset('js/utils/loading.js') }}"></script>
-        <script src="{{ asset('js/components/navigation.js') }}"></script>
-        <script src="{{ asset('js/components/anime-card.js') }}"></script>
-        <script src="{{ asset('js/components/anime-detail.js') }}"></script>
-        <script src="{{ asset('js/pages/anime.js') }}"></script>
+        <script src="{{ asset('../public/js/utils/storage.js') }}"></script>
+        <script src="{{ asset('../public/js/utils/toast.js') }}"></script>
+        <script src="{{ asset('../public/js/utils/loading.js') }}"></script>
+        <script src="{{ asset('../public/js/components/navigation.js') }}"></script>
+        <script src="{{ asset('../public/js/components/anime-card.js') }}"></script>
+        <script src="{{ asset('../public/js/components/anime-detail.js') }}"></script>
+        <script src="{{ asset('../public/js/pages/anime.js') }}"></script>
     </div>
 </body>
 </html>

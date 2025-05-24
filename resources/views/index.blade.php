@@ -15,13 +15,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.min.css" />
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ asset('css/base.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/components.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/layout.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/animations.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/pages/home.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/pages/index.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/footer.css') }}" />
+    <link rel="stylesheet" href="{{ asset('../public/css/base.css') }}" />
+    <link rel="stylesheet" href="{{ asset('../public/css/components.css') }}" />
+    <link rel="stylesheet" href="{{ asset('../public/css/layout.css') }}" />
+    <link rel="stylesheet" href="{{ asset('../public/css/animations.css') }}" />
+    <link rel="stylesheet" href="{{ asset('../public/css/pages/home.css') }}" />
+    <link rel="stylesheet" href="{{ asset('../public/css/pages/index.css') }}" />
+    <link rel="stylesheet" href="{{ asset('../public/css/footer.css') }}" />
 </head>
 <body>
     <div id="app">
@@ -237,10 +237,10 @@
             
             <!-- Scripts -->
             <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
-            <script src="{{ asset('js/utils/storage.js') }}"></script>
-            <script src="{{ asset('js/utils/toast.js') }}"></script>
-            <script src="{{ asset('js/components/navigation.js') }}"></script>
-            <script src="{{ asset('js/pages/index.js') }}"></script>
+            <script src="{{ asset('../public/js/utils/storage.js') }}"></script>
+            <script src="{{ asset('../public/js/utils/toast.js') }}"></script>
+            <script src="{{ asset('../public/js/components/navigation.js') }}"></script>
+            <script src="{{ asset('../public/js/pages/index.js') }}"></script>
         </main>
     </div>
 </body>
